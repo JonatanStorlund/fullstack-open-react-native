@@ -1,8 +1,12 @@
 const theme = {
+  base: {
+    borderRadius: 4
+  },
   colors: {
     textPrimary: '#24292e',
     textSecondary: '#586069',
     primary: '#0366d6',
+    white: '#fff'
   },
   fontSizes: {
     body: 14,
@@ -18,7 +22,11 @@ const theme = {
   appBar: {
     backgroundColor: '#24292e',
     color: '#fff',
-  }
+  },
+  spacings: {
+    contentPadding: 15,
+    buttonPadding: 4,
+  },
 };
 
 export default theme;

@@ -5,7 +5,8 @@ import Text from './Text';
 
 const styles = StyleSheet.create({
   tab: {
-    color: theme.appBar.color
+    color: theme.appBar.color,
+    padding: theme.spacings.contentPadding
   }
 });
 
